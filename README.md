@@ -1,7 +1,10 @@
 # Medical Q&A Chatbot
 ## Project Overview
 This project implements a domain-specific chatbot designed to answer medical questions using a fine-tuned Transformer model. It integrates a pretrained language model with a user-friendly Flask web interface, enabling interactive querying and real-time responses. The system supports medical education, preliminary self-diagnosis, and information dissemination.
+
 git repo: https://github.com/MAHAMAT263/Machine_learning_I_summative.git 
+
+
 Demo link:
 ## Model & Dataset
 Dataset
