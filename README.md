@@ -5,7 +5,7 @@ This project implements a domain-specific chatbot designed to answer medical que
 git repo: https://github.com/MAHAMAT263/Machine_learning_I_summative.git 
 
 
-Demo link:
+Demo link: https://drive.google.com/file/d/1kFgNnqoBcCGwNLgf4KrcuBxxujAuZNI3/view?usp=sharing
 ## Model & Dataset
 Dataset
 Source:https://www.kaggle.com/datasets/thedevastator/comprehensive-medical-q-a-dataset/data 
@@ -40,6 +40,8 @@ max         191.000000   29046.000000
 
 
 ## The data visualization:
+
+
 
 Model 1(t5-small)
 Base Model: t5-small from Hugging Face Transformers.
