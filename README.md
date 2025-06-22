@@ -41,6 +41,10 @@ max         191.000000   29046.000000
 
 ## The data visualization:
 
+![Chatbot Interface](images/datadis1.png)
+
+![Chatbot Interface](images/datadis2.png)
+
 
 
 Model 1(t5-small)
@@ -90,8 +94,10 @@ rouge2: 0.17994513747772967
 rougeL: 0.24441907733375723
 rougeLsum: 0.25001687097112446
 
-The  t5-small curve
+## The  t5-small curve
 
+
+![Chatbot Interface](images/t5small.png)
 
 Model 2(t5-base)
 Base Model: t5-base from Hugging Face Transformers.
@@ -141,8 +147,9 @@ ROUGE Score:
   rougeL: 0.24260774616732578
   rougeLsum: 0.24524357078751008
 
-The  t5-base curve
+## The  t5-base curve
 
+![Chatbot Interface](images/t5base.png)
 
 
 Note: Scores are relatively low due to the open-ended and complex nature of medical QA.
