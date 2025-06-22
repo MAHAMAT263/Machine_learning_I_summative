@@ -1,9 +1,9 @@
-## Medical Q&A Chatbot
-# Project Overview
+# Medical Q&A Chatbot
+## Project Overview
 This project implements a domain-specific chatbot designed to answer medical questions using a fine-tuned Transformer model. It integrates a pretrained language model with a user-friendly Flask web interface, enabling interactive querying and real-time responses. The system supports medical education, preliminary self-diagnosis, and information dissemination.
 git repo: https://github.com/MAHAMAT263/Machine_learning_I_summative.git 
 Demo link:
-Model & Dataset
+## Model & Dataset
 Dataset
 Source:https://www.kaggle.com/datasets/thedevastator/comprehensive-medical-q-a-dataset/data 
 
@@ -11,7 +11,7 @@ Source:https://www.kaggle.com/datasets/thedevastator/comprehensive-medical-q-a-d
 Format: CSV with columns Question, Answer, and qtype.
 
 
-Preprocessing:
+## Preprocessing:
 
 
 Dropped unnecessary columns (like qtype).
@@ -23,7 +23,7 @@ Renamed columns to question and answer to lowercase.
 Split into train, validation, and test sets (80/10/10 split).
 
 
-The statistic of the data:
+## The statistic of the data:
 Basic Statistics:
        question_length  answer_length
 count     16407.000000   16407.000000
@@ -36,7 +36,7 @@ min          16.000000       6.000000
 max         191.000000   29046.000000
 
 
-The data visualization:
+## The data visualization:
 
 Model 1(t5-small)
 Base Model: t5-small from Hugging Face Transformers.
@@ -67,7 +67,7 @@ Evaluation Metric: Validation loss with early stopping
 Model saved to: trained_model/
 
 
-Evaluation
+## Evaluation
 BLEU Score: Measured n-gram overlap between predicted and reference answers.
 
 
@@ -117,7 +117,7 @@ Evaluation Metric: Validation loss with early stopping
 Model saved to: trained_model/
 
 
-Evaluation
+## Evaluation
 BLEU Score: Measured n-gram overlap between predicted and reference answers.
 
 
