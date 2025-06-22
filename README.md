@@ -153,34 +153,47 @@ Note: Scores are relatively low due to the open-ended and complex nature of medi
 | T5-small  | 5      | 1.9142923  | 1.761654 | 0.0141726  |
 | T5-base   | 5      | 1.328896   | 1.362294 | 0.0147754  |
 
-The best model: T5-base 
+## The best model: T5-base 
+
 Based on the evaluation metrics, the best performing model is T5-base. It achieved a lower training loss (1.33) and a slightly lower validation loss (1.36) compared to T5-small. Additionally, it produced a higher BLEU score (0.0148 vs. 0.0142), indicating better quality in generated answers. These results suggest that the T5-base model generalizes better and provides more accurate responses for the medical Q&A task.
 
-Question and answer used to test the model:
+## Question and answer used to test the model:
+
 Q: what is cancer?
+
 A: Cancer is a disease in which malignant (cancer) cells form in the tissues of the body. Malignant (cancer) cells form in the tissues of the body. Malignant (cancer) cells form in the tissues of the body. Malignant (cancer) cells form in the tissues
 
 Q: what is cancer?
+
 A: Cancer is a disease in which malignant (cancer) cells form in the tissues of the body. Malignant (cancer) cells form in the tissues of the body. Malignant (cancer) cells form in the tissues of the body. Malignant (cancer) cells form in the tissues
+
 Application Architecture
-Frontend
+
+## Frontend
 Built with HTML + Bootstrap.
+
 
 
 User interface to input medical questions.
 
 
+
 Asynchronous form submission using JavaScript and fetch().
 
 
-Backend (Flask)
+
+## Backend (Flask)
+
 Python Flask server serves HTML page and handles POST requests.
+
 
 
 Uses T5ForConditionalGeneration to predict answers.
 
 
+
 Loads tokenizer and model from trained_model/ directory.
+
 
 
 Dependencies
@@ -190,16 +203,24 @@ torch
 Sentencepiece
 
 
+
 Usage Instructions
+
 Clone the project locally.
+
 
 
 Ensure trained_model/ folder contains all required model files.
 
 
+
 Install dependencies:
 
+
 pip install -r requirements.txt
+
 Python app.y
+
 Conclusion
+
 This Medical Q&A Chatbot demonstrates how powerful transformer-based models can be leveraged for specialized question-answering tasks. By combining NLP, Flask web development, and an intuitive interface, the chatbot provides a helpful tool for educational or exploratory medical assistance.
