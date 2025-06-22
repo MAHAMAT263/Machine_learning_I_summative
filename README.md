@@ -204,7 +204,7 @@ Sentencepiece
 
 
 
-Usage Instructions
+## Usage Instructions
 
 Clone the project locally.
 
@@ -214,13 +214,13 @@ Ensure trained_model/ folder contains all required model files.
 
 
 
-Install dependencies:
+## Install dependencies:
 
 
 pip install -r requirements.txt
 
 Python app.y
 
-Conclusion
+## Conclusion
 
 This Medical Q&A Chatbot demonstrates how powerful transformer-based models can be leveraged for specialized question-answering tasks. By combining NLP, Flask web development, and an intuitive interface, the chatbot provides a helpful tool for educational or exploratory medical assistance.
